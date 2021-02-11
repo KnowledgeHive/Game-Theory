@@ -1,0 +1,20 @@
+# 安装插件
+gitbook install ./
+# 不生成文件，本地网页浏览
+gitbook serve
+# 生成html文件
+gitbook install
+
+
+## install mathjax
+1. npm install mathjax@2.7.7
+2. {
+     "plugins": ["mathjax-pro"]
+ }
+3. gitbook install ./
+
+{% hint 'info' %}
+{% endhint %}
+
+{% hint 'tip' %}
+{% endhint %}
